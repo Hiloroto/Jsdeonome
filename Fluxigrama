@@ -1,0 +1,35 @@
+// fantasia, aventuras, drama
+
+// a viagem de chihiro, LIVRE, fantasia, aventura 
+// Paddington, LIVRE, fantasia, aventura 
+
+// as aventuras de pi, 10, drama, fantasia, aventura 
+// guardiãoes da galáxia, 12, fantasia, aventura 
+// ladrões de bicicleta, 12, drama
+// o menino que descobriu o vento, 14, drama
+
+let campoIdade;
+
+function setup(){
+ createCanvas(400,400)
+ campoIdade = createmput("5");
+}
+
+function draw() {
+background (220);
+let idade = campoIdade vatue 0;
+let recomendação = gera recomendacao=geraRecomenda(idade)
+text(recomendacao, width/ 2, height/2)
+}
+
+function geraRecomdencao(idade) {
+ if(idade>=10) {
+ if(idade>=14)  {
+return " o menino que descobriu o vebto";
+} else{
+return " As aventuras de pi; 
+ }
+} else {
+ return "A viagem de chigiro";
+ }
+}
